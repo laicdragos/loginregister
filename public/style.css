@@ -1,0 +1,80 @@
+nav {
+    background-color: turquoise;
+    color : whitesmoke;
+    padding: 15px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+  nav li a:hover {
+      color: grey;
+      opacity: 0.4;
+      text-decoration: none;
+  }
+  button {
+      margin-top: 10px;
+  }
+  nav h4 a{
+    text-decoration: none;
+    color: #fff;
+  }
+  nav h4 a:hover{
+    text-decoration: none;
+    color: grey;
+    opacity: 0.4;
+  }
+
+footer {
+    background-color: turquoise;
+    padding: 10px 80px;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+}
+.facebook, .twitter{
+    width:33px;
+    height:33px;
+    display:inline-block;
+    text-align:right;
+}
+.facebook a{
+	height: 33px;
+	width: 33px;
+	background-image: url('https://www.gravatar.com/avatar/20007b54e92576c96782b789c0653238?s=32&d=identicon&r=PG&f=1');
+	background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.facebook a:hover{
+	background-image: url('images/facebookhover.png');
+	background-repeat: no-repeat;
+}
+
+.twitter a{
+	height: 33px;
+	width: 33px;
+	background-image: url('https://www.gravatar.com/avatar/20007b54e92576c96782b789c0653238?s=32&d=identicon&r=PG&f=1');
+	background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.twitter a:hover {
+	background-image: url('images/twitterhover.png');
+	background-repeat: no-repeat;
+}
